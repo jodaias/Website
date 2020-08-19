@@ -1,5 +1,7 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="website.Default" %>
 
+<%@ Register src="Login.ascx" tagname="Login" tagprefix="uc1" %>
+
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -10,6 +12,8 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            <uc1:Login ID="ctrLogin" runat="server" />
+        </div>
             <asp:TextBox ID="txtMensagem" runat="server"></asp:TextBox>
             <input type="text" name="telefone" id="telefone" runat="server"/>
             <asp:Button ID="btnMostrar" runat="server" OnClick="btnMostrar_Click" Text="Mostrar mensagem" />
@@ -28,7 +32,7 @@
             <br />
             <asp:GridView ID="GridView1" runat="server">
             </asp:GridView>
-        </div>
+        
     </form>
 </body>
 </html>

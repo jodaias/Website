@@ -11,6 +11,7 @@ namespace website
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            ctrLogin.Mensagem = "Form de Cadastro";
             mostrarLista();
         }
 

@@ -12,6 +12,8 @@ namespace website
         public List<Contato> contatos = new List<Contato>();
         protected void Page_Load(object sender, EventArgs e)
         {
+            ctrLogin.Mensagem = "Default página";
+
             contatos.Add(new Contato() { ID = 1, Nome = "Jodaías", Telefone = "75991169903" });
             contatos.Add(new Contato() { ID = 2, Nome = "Laura", Telefone = "75991169904" });
             contatos.Add(new Contato() { ID = 3, Nome = "Marcos", Telefone = "75991169905" });

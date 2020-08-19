@@ -1,5 +1,7 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Cadastro.aspx.cs" Inherits="website.Cadastro" %>
 
+<%@ Register src="Login.ascx" tagname="Login" tagprefix="uc1" %>
+
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -14,6 +16,9 @@
 </head>
 <body>
     <form id="form1" runat="server">
+        <div>
+            <uc1:Login ID="ctrLogin" runat="server" />
+        </div>
         <div>
             <asp:Panel ID="pnlCamposDeCadastro" runat="server">
                 <asp:Label ID="Label1" runat="server" Text="Nome"></asp:Label>
