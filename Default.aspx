@@ -19,13 +19,6 @@
             <asp:Button ID="btnMostrar" runat="server" OnClick="btnMostrar_Click" Text="Mostrar mensagem" />
             <br />
            <br />
-            <select id="selectManual">
-                <%foreach (var contato in contatos){ %>
-                <option value="<%= contato.ID%>"><%= contato.Nome%></option>
-                <%} %>
-            </select>
-            <br />
-            <br />
             <asp:DropDownList ID="ddlContatos" runat="server">
             </asp:DropDownList>
             <br />

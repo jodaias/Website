@@ -24,7 +24,7 @@ namespace website
 
             if (login == "jodaias" && senha == "12345678")
             {
-                Page.ClientScript.RegisterClientScriptBlock(this.GetType(),"alerta", "<script>alert('" + login + ", entrou com sucesso.');</script>");
+                Page.ClientScript.RegisterClientScriptBlock(this.GetType(),"alerta", "<script>alert('" + login + " entrou com sucesso.');</script>");
             }
             else
             {
