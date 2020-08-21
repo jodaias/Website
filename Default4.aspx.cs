@@ -11,7 +11,9 @@ namespace website
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            Response.Write(Session["email"]);
+            Response.Write(Session["<br>"]);
+            Response.Write(Session["senha"]);
         }
     }
 }

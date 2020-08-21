@@ -73,7 +73,7 @@
     <Content Include="Default2.aspx" />
     <Content Include="Default3.aspx" />
     <Content Include="Default4.aspx" />
-    <Content Include="Login.ascx" />
+    <Content Include="components\Login.ascx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -119,11 +119,11 @@
     <Compile Include="Default4.aspx.designer.cs">
       <DependentUpon>Default4.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Login.ascx.cs">
+    <Compile Include="components\Login.ascx.cs">
       <DependentUpon>Login.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Login.ascx.designer.cs">
+    <Compile Include="components\Login.ascx.designer.cs">
       <DependentUpon>Login.ascx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -15,13 +15,13 @@ namespace website
     {
 
         /// <summary>
-        /// Controle form1.
+        /// Controle naoLogado.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl naoLogado;
 
         /// <summary>
         /// Controle ctrLogin.
@@ -33,31 +33,13 @@ namespace website
         protected global::website.Login ctrLogin;
 
         /// <summary>
-        /// Controle txtMensagem.
+        /// Controle Logado.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtMensagem;
-
-        /// <summary>
-        /// Controle telefone.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText telefone;
-
-        /// <summary>
-        /// Controle btnMostrar.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnMostrar;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl Logado;
 
         /// <summary>
         /// Controle ddlContatos.

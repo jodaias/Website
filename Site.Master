@@ -4,18 +4,12 @@
 
 <html>
 <head runat="server">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title></title>
     <asp:ContentPlaceHolder ID="header" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
-    <h1>tela web</h1>
-    <ul>
-        <li><a href="../Default2.aspx">Página 1</a></li>
-        <li><a href="../Default3.aspx">Página 2</a></li>
-        <li><a href="../Default4.aspx">Página 3</a></li>
-   </ul>
     <form id="form1" runat="server">
         <div>
             <asp:ContentPlaceHolder ID="content" runat="server">
@@ -23,6 +17,6 @@
         </div>
     </form>
     <asp:ContentPlaceHolder ID="footer" runat="server">
-    </asp:ContentPlaceHolder>
+    </asp:ContentPlaceHolder>  
 </body>
 </html>
