@@ -11,9 +11,16 @@ namespace website
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            Response.Write("====== Esta é uma sessão. funciona nessa pagina =====");
+            Response.Write(Session["<br>"]); 
             Response.Write(Session["email"]);
             Response.Write(Session["<br>"]);
             Response.Write(Session["senha"]);
+
+            Response.Write("====== Este é um view state. Será que funciona nessa pagina??? não é claro. só na pagina Default2.aspx =====");
+            Response.Write("<br>");
+            Response.Write(ViewState["dados"]);
+
         }
     }
 }
